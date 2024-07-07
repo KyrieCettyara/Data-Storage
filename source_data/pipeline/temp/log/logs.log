@@ -1,0 +1,188 @@
+2024-07-07 22:30:18,886 - INFO - ==================================STARTING EXTRACT DATA=======================================
+2024-07-07 22:30:18,948 - INFO - EXTRACT 'address' - SUCCESS.
+2024-07-07 22:30:18,948 - INFO - EXTRACT 'address_status' - SUCCESS.
+2024-07-07 22:30:18,980 - INFO - EXTRACT 'author' - SUCCESS.
+2024-07-07 22:30:19,031 - INFO - EXTRACT 'book_author' - SUCCESS.
+2024-07-07 22:30:19,044 - INFO - EXTRACT 'book_language' - SUCCESS.
+2024-07-07 22:30:19,123 - INFO - EXTRACT 'book' - SUCCESS.
+2024-07-07 22:30:19,128 - INFO - EXTRACT 'country' - SUCCESS.
+2024-07-07 22:30:19,202 - INFO - EXTRACT 'cust_order' - SUCCESS.
+2024-07-07 22:30:19,249 - INFO - EXTRACT 'customer_address' - SUCCESS.
+2024-07-07 22:30:19,266 - INFO - EXTRACT 'customer' - SUCCESS.
+2024-07-07 22:30:19,445 - INFO - EXTRACT 'order_history' - SUCCESS.
+2024-07-07 22:30:19,544 - INFO - EXTRACT 'order_line' - SUCCESS.
+2024-07-07 22:30:19,552 - INFO - EXTRACT 'order_status' - SUCCESS.
+2024-07-07 22:30:19,555 - INFO - EXTRACT 'publisher' - SUCCESS.
+2024-07-07 22:30:19,569 - INFO - EXTRACT 'shipping_method' - SUCCESS.
+2024-07-07 22:30:19,569 - INFO - Extract All Tables From Sources - SUCCESS
+2024-07-07 22:30:19,569 - INFO - ==================================ENDING EXTRACT DATA=======================================
+2024-07-07 22:30:19,569 - INFO - [pid 8128] Worker Worker(salt=557785119, workers=1, host=KyrieEl, username=kyrie, pid=8128) done      Extract()
+2024-07-07 22:30:19,569 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-07-07 22:30:19,569 - INFO - Informed scheduler that task   Extract__99914b932b   has status   DONE
+2024-07-07 22:30:19,569 - DEBUG - Asking scheduler for work...
+2024-07-07 22:30:19,582 - DEBUG - Pending tasks: 1
+2024-07-07 22:30:19,582 - INFO - [pid 8128] Worker Worker(salt=557785119, workers=1, host=KyrieEl, username=kyrie, pid=8128) running   Load()
+2024-07-07 22:30:19,587 - INFO - ==================================TRUNCATE DATA=======================================
+2024-07-07 22:30:19,587 - INFO - ==================================TRUNCATE DATA=======================================
+2024-07-07 22:30:19,631 - INFO - TRUNCATE address - SUCCESS
+2024-07-07 22:30:19,631 - INFO - TRUNCATE address - SUCCESS
+2024-07-07 22:30:19,641 - INFO - TRUNCATE address_status - SUCCESS
+2024-07-07 22:30:19,641 - INFO - TRUNCATE address_status - SUCCESS
+2024-07-07 22:30:19,646 - INFO - TRUNCATE author - SUCCESS
+2024-07-07 22:30:19,646 - INFO - TRUNCATE author - SUCCESS
+2024-07-07 22:30:19,655 - INFO - TRUNCATE book_author - SUCCESS
+2024-07-07 22:30:19,655 - INFO - TRUNCATE book_author - SUCCESS
+2024-07-07 22:30:19,663 - INFO - TRUNCATE book_language - SUCCESS
+2024-07-07 22:30:19,663 - INFO - TRUNCATE book_language - SUCCESS
+2024-07-07 22:30:19,671 - INFO - TRUNCATE book - SUCCESS
+2024-07-07 22:30:19,671 - INFO - TRUNCATE book - SUCCESS
+2024-07-07 22:30:19,679 - INFO - TRUNCATE country - SUCCESS
+2024-07-07 22:30:19,679 - INFO - TRUNCATE country - SUCCESS
+2024-07-07 22:30:19,679 - INFO - TRUNCATE cust_order - SUCCESS
+2024-07-07 22:30:19,679 - INFO - TRUNCATE cust_order - SUCCESS
+2024-07-07 22:30:19,679 - INFO - TRUNCATE customer_address - SUCCESS
+2024-07-07 22:30:19,679 - INFO - TRUNCATE customer_address - SUCCESS
+2024-07-07 22:30:19,695 - INFO - TRUNCATE customer - SUCCESS
+2024-07-07 22:30:19,695 - INFO - TRUNCATE customer - SUCCESS
+2024-07-07 22:30:19,711 - INFO - TRUNCATE order_history - SUCCESS
+2024-07-07 22:30:19,711 - INFO - TRUNCATE order_history - SUCCESS
+2024-07-07 22:30:19,711 - INFO - TRUNCATE order_line - SUCCESS
+2024-07-07 22:30:19,711 - INFO - TRUNCATE order_line - SUCCESS
+2024-07-07 22:30:19,727 - INFO - TRUNCATE order_status - SUCCESS
+2024-07-07 22:30:19,727 - INFO - TRUNCATE order_status - SUCCESS
+2024-07-07 22:30:19,729 - INFO - TRUNCATE publisher - SUCCESS
+2024-07-07 22:30:19,729 - INFO - TRUNCATE publisher - SUCCESS
+2024-07-07 22:30:19,729 - INFO - TRUNCATE shipping_method - SUCCESS
+2024-07-07 22:30:19,729 - INFO - TRUNCATE shipping_method - SUCCESS
+2024-07-07 22:30:19,729 - INFO - TRUNCATE ALL TABLES - DONE
+2024-07-07 22:30:19,729 - INFO - TRUNCATE ALL TABLES - DONE
+2024-07-07 22:30:19,729 - INFO - ==================================END OF PREPARATION=======================================
+2024-07-07 22:30:19,729 - INFO - ==================================END OF PREPARATION=======================================
+2024-07-07 22:30:19,729 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-07-07 22:30:19,729 - INFO - ==================================STARTING LOAD DATA=======================================
+2024-07-07 22:30:19,743 - INFO - READ 'address' - SUCCESS
+2024-07-07 22:30:19,743 - INFO - READ 'address' - SUCCESS
+2024-07-07 22:30:19,763 - INFO - READ 'address_status' - SUCCESS
+2024-07-07 22:30:19,763 - INFO - READ 'address_status' - SUCCESS
+2024-07-07 22:30:19,778 - INFO - READ 'author' - SUCCESS
+2024-07-07 22:30:19,778 - INFO - READ 'author' - SUCCESS
+2024-07-07 22:30:19,795 - INFO - READ 'book_author' - SUCCESS
+2024-07-07 22:30:19,795 - INFO - READ 'book_author' - SUCCESS
+2024-07-07 22:30:19,795 - INFO - READ 'book_language' - SUCCESS
+2024-07-07 22:30:19,795 - INFO - READ 'book_language' - SUCCESS
+2024-07-07 22:30:19,829 - INFO - READ 'book' - SUCCESS
+2024-07-07 22:30:19,829 - INFO - READ 'book' - SUCCESS
+2024-07-07 22:30:19,829 - INFO - READ 'country' - SUCCESS
+2024-07-07 22:30:19,829 - INFO - READ 'country' - SUCCESS
+2024-07-07 22:30:19,855 - INFO - READ 'cust_order' - SUCCESS
+2024-07-07 22:30:19,855 - INFO - READ 'cust_order' - SUCCESS
+2024-07-07 22:30:19,871 - INFO - READ 'customer_address' - SUCCESS
+2024-07-07 22:30:19,871 - INFO - READ 'customer_address' - SUCCESS
+2024-07-07 22:30:19,871 - INFO - READ 'customer' - SUCCESS
+2024-07-07 22:30:19,871 - INFO - READ 'customer' - SUCCESS
+2024-07-07 22:30:19,912 - INFO - READ 'order_history' - SUCCESS
+2024-07-07 22:30:19,912 - INFO - READ 'order_history' - SUCCESS
+2024-07-07 22:30:19,947 - INFO - READ 'order_line' - SUCCESS
+2024-07-07 22:30:19,947 - INFO - READ 'order_line' - SUCCESS
+2024-07-07 22:30:19,947 - INFO - READ 'order_status' - SUCCESS
+2024-07-07 22:30:19,947 - INFO - READ 'order_status' - SUCCESS
+2024-07-07 22:30:19,967 - INFO - READ 'publisher' - SUCCESS
+2024-07-07 22:30:19,967 - INFO - READ 'publisher' - SUCCESS
+2024-07-07 22:30:19,967 - INFO - READ 'shipping_method' - SUCCESS
+2024-07-07 22:30:19,967 - INFO - READ 'shipping_method' - SUCCESS
+2024-07-07 22:30:19,967 - INFO - READ EXTRACTED TABLES - SUCCESS
+2024-07-07 22:30:19,967 - INFO - READ EXTRACTED TABLES - SUCCESS
+2024-07-07 22:30:20,097 - ERROR - LOAD ALL DATA - FAILED: (psycopg2.errors.UndefinedColumn) column "country_id" of relation "address" does not exist
+LINE 1: ...ss (address_id, street_number, street_name, city, country_id...
+                                                             ^
+
+[SQL: INSERT INTO public.address (address_id, street_number, street_name, city, country_id) VALUES (%(address_id__0)s, %(street_number__0)s, %(street_name__0)s, %(city__0)s, %(country_id__0)s), (%(address_id__1)s, %(street_number__1)s, %(street_name__1)s,  ... 104191 characters truncated ... address_id__999)s, %(street_number__999)s, %(street_name__999)s, %(city__999)s, %(country_id__999)s)]
+[parameters: {'country_id__0': 95, 'street_number__0': 57, 'address_id__0': 1, 'city__0': 'Torbat-e J\u0101m', 'street_name__0': 'Glacier Hill Avenue', 'country_id__1': 37, 'street_number__1': 86, 'address_id__1': 2, 'city__1': 'Beaumont', 'street_name__1': 'Dottie Junction', 'country_id__2': 60, 'street_number__2': 292, 'address_id__2': 3, 'city__2': 'Cayambe', 'street_name__2': 'Ramsey Avenue', 'country_id__3': 47, 'street_number__3': 5618, 'address_id__3': 4, 'city__3': 'Caldas', 'street_name__3': 'Thackeray Junction', 'country_id__4': 153, 'street_number__4': 4, 'address_id__4': 5, 'city__4': 'Ngunguru', 'street_name__4': '2nd Park', 'country_id__5': 159, 'street_number__5': 387, 'address_id__5': 6, 'city__5': 'Burirao', 'street_name__5': 'Nancy Junction', 'country_id__6': 42, 'street_number__6': 501, 'address_id__6': 7, 'city__6': 'Nirji', 'street_name__6': 'Atwood Point', 'country_id__7': 164, 'street_number__7': 42, 'address_id__7': 8, 'city__7': 'Tijão', 'street_name__7': 'North Pass', 'country_id__8': 164, 'street_number__8': 83, 'address_id__8': 9, 'city__8': 'Castelo de Vide', 'street_name__8': 'Graceland Pass', 'country_id__9': 42, 'street_number__9': 93, 'address_id__9': 10, 'city__9': 'Shangde', 'street_name__9': 'Clyde Gallagher Road' ... 4900 parameters truncated ... 'country_id__990': 69, 'street_number__990': 510, 'address_id__990': 991, 'city__990': 'Parikkala', 'street_name__990': 'Heath Street', 'country_id__991': 200, 'street_number__991': 71, 'address_id__991': 992, 'city__991': 'Ongkharak', 'street_name__991': 'Sheridan Park', 'country_id__992': 70, 'street_number__992': 5329, 'address_id__992': 993, 'city__992': 'Paris 08', 'street_name__992': 'Carpenter Street', 'country_id__993': 194, 'street_number__993': 61170, 'address_id__993': 994, 'city__993': 'Vellinge', 'street_name__993': 'Arkansas Hill', 'country_id__994': 158, 'street_number__994': 70837, 'address_id__994': 995, 'city__994': 'Santa Rosa', 'street_name__994': 'Lindbergh Drive', 'country_id__995': 92, 'street_number__995': 5, 'address_id__995': 996, 'city__995': 'Mmaaf', 'street_name__995': 'Leroy Alley', 'country_id__996': 53, 'street_number__996': 24, 'address_id__996': 997, 'city__996': 'Jobabo', 'street_name__996': 'Morningstar Junction', 'country_id__997': 42, 'street_number__997': 429, 'address_id__997': 998, 'city__997': 'Changxingbao', 'street_name__997': 'Autumn Leaf Parkway', 'country_id__998': 92, 'street_number__998': 2, 'address_id__998': 999, 'city__998': 'Pasararba', 'street_name__998': 'Moose Crossing', 'country_id__999': 42, 'street_number__999': 503, 'address_id__999': 1000, 'city__999': 'Jiangfeng', 'street_name__999': 'Canary Crossing'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 2119, in _exec_insertmany_context
+    dialect.do_execute(
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedColumn: column "country_id" of relation "address" does not exist
+LINE 1: ...ss (address_id, street_number, street_name, city, country_id...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Kyrie\Pacmann\DataStorageManagement\Project\pacmann-bookstore\source_data\pipeline\load.py", line 96, in run
+    df.to_sql(
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 3084, in to_sql
+    return sql.to_sql(
+           ^^^^^^^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\sql.py", line 842, in to_sql
+    return pandas_sql.to_sql(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\sql.py", line 2018, in to_sql
+    total_inserted = sql_engine.insert_records(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\sql.py", line 1567, in insert_records
+    raise err
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\sql.py", line 1558, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\sql.py", line 1119, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\io\sql.py", line 1010, in _execute_insert
+    result = conn.execute(self.table.insert(), data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1421, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\sql\elements.py", line 514, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 1847, in _execute_context
+    return self._exec_insertmany_context(dialect, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 2127, in _exec_insertmany_context
+    self._handle_dbapi_exception(
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 2356, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\base.py", line 2119, in _exec_insertmany_context
+    dialect.do_execute(
+  File "C:\Users\kyrie\AppData\Local\Programs\Python\Python311\Lib\site-packages\sqlalchemy\engine\default.py", line 924, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedColumn) column "country_id" of relation "address" does not exist
+LINE 1: ...ss (address_id, street_number, street_name, city, country_id...
+                                                             ^
+
+[SQL: INSERT INTO public.address (address_id, street_number, street_name, city, country_id) VALUES (%(address_id__0)s, %(street_number__0)s, %(street_name__0)s, %(city__0)s, %(country_id__0)s), (%(address_id__1)s, %(street_number__1)s, %(street_name__1)s,  ... 104191 characters truncated ... address_id__999)s, %(street_number__999)s, %(street_name__999)s, %(city__999)s, %(country_id__999)s)]
+[parameters: {'country_id__0': 95, 'street_number__0': 57, 'address_id__0': 1, 'city__0': 'Torbat-e J\u0101m', 'street_name__0': 'Glacier Hill Avenue', 'country_id__1': 37, 'street_number__1': 86, 'address_id__1': 2, 'city__1': 'Beaumont', 'street_name__1': 'Dottie Junction', 'country_id__2': 60, 'street_number__2': 292, 'address_id__2': 3, 'city__2': 'Cayambe', 'street_name__2': 'Ramsey Avenue', 'country_id__3': 47, 'street_number__3': 5618, 'address_id__3': 4, 'city__3': 'Caldas', 'street_name__3': 'Thackeray Junction', 'country_id__4': 153, 'street_number__4': 4, 'address_id__4': 5, 'city__4': 'Ngunguru', 'street_name__4': '2nd Park', 'country_id__5': 159, 'street_number__5': 387, 'address_id__5': 6, 'city__5': 'Burirao', 'street_name__5': 'Nancy Junction', 'country_id__6': 42, 'street_number__6': 501, 'address_id__6': 7, 'city__6': 'Nirji', 'street_name__6': 'Atwood Point', 'country_id__7': 164, 'street_number__7': 42, 'address_id__7': 8, 'city__7': 'Tijão', 'street_name__7': 'North Pass', 'country_id__8': 164, 'street_number__8': 83, 'address_id__8': 9, 'city__8': 'Castelo de Vide', 'street_name__8': 'Graceland Pass', 'country_id__9': 42, 'street_number__9': 93, 'address_id__9': 10, 'city__9': 'Shangde', 'street_name__9': 'Clyde Gallagher Road' ... 4900 parameters truncated ... 'country_id__990': 69, 'street_number__990': 510, 'address_id__990': 991, 'city__990': 'Parikkala', 'street_name__990': 'Heath Street', 'country_id__991': 200, 'street_number__991': 71, 'address_id__991': 992, 'city__991': 'Ongkharak', 'street_name__991': 'Sheridan Park', 'country_id__992': 70, 'street_number__992': 5329, 'address_id__992': 993, 'city__992': 'Paris 08', 'street_name__992': 'Carpenter Street', 'country_id__993': 194, 'street_number__993': 61170, 'address_id__993': 994, 'city__993': 'Vellinge', 'street_name__993': 'Arkansas Hill', 'country_id__994': 158, 'street_number__994': 70837, 'address_id__994': 995, 'city__994': 'Santa Rosa', 'street_name__994': 'Lindbergh Drive', 'country_id__995': 92, 'street_number__995': 5, 'address_id__995': 996, 'city__995': 'Mmaaf', 'street_name__995': 'Leroy Alley', 'country_id__996': 53, 'street_number__996': 24, 'address_id__996': 997, 'city__996': 'Jobabo', 'street_name__996': 'Morningstar Junction', 'country_id__997': 42, 'street_number__997': 429, 'address_id__997': 998, 'city__997': 'Changxingbao', 'street_name__997': 'Autumn Leaf Parkway', 'country_id__998': 92, 'street_number__998': 2, 'address_id__998': 999, 'city__998': 'Pasararba', 'street_name__998': 'Moose Crossing', 'country_id__999': 42, 'street_number__999': 503, 'address_id__999': 1000, 'city__999': 'Jiangfeng', 'street_name__999': 'Canary Crossing'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2024-07-07 22:30:20,182 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-07-07 22:30:20,182 - INFO - ==================================ENDING LOAD DATA=======================================
+2024-07-07 22:30:20,182 - INFO - [pid 8128] Worker Worker(salt=557785119, workers=1, host=KyrieEl, username=kyrie, pid=8128) done      Load()
+2024-07-07 22:30:20,185 - DEBUG - 1 running tasks, waiting for next task to finish
+2024-07-07 22:30:20,191 - INFO - Informed scheduler that task   Load__99914b932b   has status   DONE
+2024-07-07 22:30:20,192 - DEBUG - Asking scheduler for work...
+2024-07-07 22:30:20,198 - DEBUG - Done
+2024-07-07 22:30:20,200 - DEBUG - There are no more tasks to run at this time
+2024-07-07 22:30:20,200 - INFO - Worker Worker(salt=557785119, workers=1, host=KyrieEl, username=kyrie, pid=8128) was stopped. Shutting down Keep-Alive thread
+2024-07-07 22:30:20,201 - INFO - 
+===== Luigi Execution Summary =====
+
+Scheduled 2 tasks of which:
+* 2 ran successfully:
+    - 1 Extract()
+    - 1 Load()
+
+This progress looks :) because there were no failed tasks or missing dependencies
+
+===== Luigi Execution Summary =====
+
